@@ -1,0 +1,370 @@
+@font-face {
+	font-family: 'Montserrat-Black';
+	src: url(../fonts/montserratblack.ttf),
+	url('../fonts/montserratblack.woff'),
+	url('../fonts/montserratblack.woff2');
+}
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url(../fonts/montserratbold.ttf),
+	url('../fonts/montserratbold.woff'),
+	url('../fonts/montserratbold.woff2');
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	line-height: 1;
+}
+img, a, button {
+	display: block;
+}
+
+.info__page:first-child {
+	width: 100%;
+	padding: 9.03% 0 0 0;
+}
+.info__page__title {
+	font-family: 'Montserrat-Black';
+	font-size: 64px;
+	color: #527fc0;
+	margin-left: 5.64%;
+	margin-bottom: 4.03%;
+}
+.info__page__block {
+	padding-top: 77.42%;
+	position: relative;
+	background-image: url(../img/bgg_1.jpg);
+	background-size: cover;
+}
+.info__page__block__text {
+	position: absolute;
+	top: 8.65%;
+	left: 5.64%;
+	width: 79%;
+	font-family: 'Montserrat-Bold';
+	font-size: 36px;
+	line-height: 60px;
+}
+.info__page__block__subtext {
+	position: absolute;
+	left: 5.64%;
+	top: 19.27%;
+	font-size: 38px;
+	font-family: 'Montserrat-Black';
+}
+.info__page__block__list {
+	position: absolute;
+	top: 66.98%;
+	left: 10.08%;
+}
+.block__list__item {
+	display: flex;
+	align-items: stretch;
+	width: 87%;
+	font-size: 36px;
+	font-family: 'Montserrat-Black';
+	color: #fff;
+}
+.list__number {
+	color: #18519b;
+	margin-right: 4%;
+	line-height: 60px;
+}
+.list__text {
+	line-height: 60px;
+}
+.brand__block {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 6.05%;
+	margin-top: 4.84%;
+}
+.brand__block__img {
+	width: 22%;
+}
+
+
+.info__page:nth-child(3) {
+	padding: 7.26% 0 0 0;
+}
+.info__page:nth-child(3) .info__page__block {
+	padding-top: 63.54%;
+	position: relative;
+	background-image: url(../img/bg_2.jpg);
+	background-size: cover;
+}
+.info__page:nth-child(3) .info__page__block__text {
+	position: absolute;
+	top: 12.44%;
+	width: 85.5%;
+}
+.info__page:nth-child(3) .info__page__block__subtext {
+	position: absolute;
+	top: 30.2%;
+}
+.info__page:nth-child(3) .info__page__block__list {
+	position: absolute;
+	top: 56.85%;
+	left: 39.5%;
+}
+.info__page:nth-child(3) .list__number {
+	margin-right: 5.3%;
+}
+.info__page:nth-child(3) .block__list__item {
+	width: 97%;
+}
+.info__page:nth-child(3) .brand__block {
+	margin-top: 5.65%;
+}
+
+@media screen and (max-width: 1750px) {
+	.block__list__item {
+		font-size: 32px;
+	}
+	.list__number {
+		line-height: 56px;
+	}
+	.list__text {
+		line-height: 56px;
+	}
+	.info__page__title {
+		font-size: 56px;
+	}
+	.info__page__block__text {
+		font-size: 32px;
+		line-height: 56px;
+	}
+	.info__page__block__subtext {
+		font-size: 34px;
+		line-height: 60px;
+	}
+}
+@media screen and (max-width: 1540px) {
+	.block__list__item {
+		font-size: 28px;
+		width: 92%;
+	}
+	.list__number {
+		line-height: 52px;
+	}
+	.list__text {
+		line-height: 52px;
+	}
+	.info__page__title {
+		font-size: 52px;
+	}
+	.info__page__block__text {
+		font-size: 28px;
+		line-height: 52px;
+		top: 8.15%;
+	}
+	.info__page__block__subtext {
+		font-size: 30px;
+		top: 18.4%;
+	}
+}
+@media screen and (max-width: 1350px) {
+	.block__list__item {
+		font-size: 22px;
+	}
+	.list__number {
+		line-height: 48px;
+	}
+	.list__text {
+		line-height: 48px;
+	}
+	.info__page__title {
+		font-size: 48px;
+	}
+	.info__page__block__text {
+		font-size: 24px;
+		line-height: 48px;
+	}
+	.info__page__block__subtext {
+		font-size: 26px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.block__list__item {
+		font-size: 18px;
+	}
+	.list__number {
+		line-height: 40px;
+	}
+	.list__text {
+		line-height: 40px;
+	}
+	.info__page__title {
+		font-size: 40px;
+	}
+	.info__page__block__text {
+		font-size: 20px;
+		line-height: 40px;
+	}
+	.info__page__block__subtext {
+		font-size: 22px;
+	}
+}
+@media screen and (max-width: 992px) {
+	.block__list__item {
+		font-size: 14px;
+	}
+	.list__number {
+		line-height: 34px;
+	}
+	.list__text {
+		line-height: 34px;
+	}
+	.info__page__title {
+		font-size: 36px;
+	}
+	.info__page__block__text {
+		font-size: 16px;
+		line-height: 34px;
+	}
+	.info__page__block__subtext {
+		font-size: 18px;
+		top: 17.4%;
+	}
+} 
+@media screen and (max-width: 768px) {
+	.block__list__item {
+		font-size: 12px;
+	}
+	.list__number {
+		line-height: 24px;
+	}
+	.list__text {
+		line-height: 24px;
+	}
+	.info__page__title {
+		font-size: 32px;
+	}
+	.info__page__block__text {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.info__page__block__subtext {
+		font-size: 16px;
+		top: 17.4%;
+	}
+	.brand__block {
+		flex-wrap: wrap;
+	}
+	.brand__block__img {
+		width: 48%;
+		margin: 5% 0;
+	}
+} 
+@media screen and (max-width: 625px) {
+	.block__list__item {
+		font-size: 12px;
+	}
+	.list__number {
+		line-height: 18px;
+	}
+	.list__text {
+		line-height: 18px;
+	}
+	.info__page__title {
+		font-size: 32px;
+	}
+	.info__page__block__text {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.info__page__block__subtext {
+		font-size: 16px;
+		top: 17.4%;
+	}
+	.info__page:nth-child(3) .info__page__block__list {
+		top: 52.85%;
+	}
+} 
+@media screen and (max-width: 530px) {
+	.block__list__item {
+		font-size: 12px;
+	}
+	.list__number {
+		line-height: 14px;
+	}
+	.list__text {
+		line-height: 14px;
+	}
+	.info__page__title {
+		font-size: 28px;
+	}
+	.info__page__block__text {
+		font-size: 12px;
+		line-height: 16px;
+		top: 7.65%;
+	}
+	.info__page__block__subtext {
+		font-size: 14px;
+		top: 17.4%;
+	}
+	.info__page:nth-child(3) .info__page__block__list {
+		top: 52.85%;
+	}
+} 
+@media screen and (max-width: 477px) {
+	.block__list__item {
+		font-size: 10px;
+	}
+	.list__number {
+		line-height: 12px;
+	}
+	.list__text {
+		line-height: 12px;
+	}
+	.info__page__title {
+		font-size: 24px;
+	}
+	.info__page__block__text {
+		font-size: 10px;
+		line-height: 14px;
+	}
+	.info__page__block__subtext {
+		font-size: 12px;
+		top: 15.4%;
+	}
+	.info__page:nth-child(3) .info__page__block__subtext {
+		top: 24.4%;
+	}
+	.info__page:nth-child(3) .info__page__block__list {
+		top: 52.85%;
+	}
+} 
+@media screen and (max-width: 400px) {
+	.block__list__item {
+		font-size: 8px;
+	}
+	.list__number {
+		line-height: 10px;
+	}
+	.list__text {
+		line-height: 10px;
+	}
+	.info__page__title {
+		font-size: 18px;
+	}
+	.info__page__block__text {
+		font-size: 8px;
+		line-height: 10px;
+	}
+	.info__page__block__subtext {
+		font-size: 10px;
+		top: 11.0%;
+	}
+	.info__page:nth-child(3) .info__page__block__subtext {
+		top: 20.4%;
+	}
+	.info__page:nth-child(3) .info__page__block__list {
+		top: 51.3%;
+	}
+} 

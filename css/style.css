@@ -94,21 +94,17 @@ img, a, button {
 }
 .info__page:nth-child(3) .info__page__block {
 	padding-top: 63.54%;
-	position: relative;
 	background-image: url(../img/bg_2.jpg);
 	background-size: cover;
 }
 .info__page:nth-child(3) .info__page__block__text {
-	position: absolute;
 	top: 12.44%;
 	width: 85.5%;
 }
 .info__page:nth-child(3) .info__page__block__subtext {
-	position: absolute;
 	top: 30.2%;
 }
 .info__page:nth-child(3) .info__page__block__list {
-	position: absolute;
 	top: 56.85%;
 	left: 39.5%;
 }
